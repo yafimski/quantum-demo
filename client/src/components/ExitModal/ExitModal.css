@@ -1,0 +1,33 @@
+.exit-modal-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2em;
+}
+
+.exit-modal-container > span {
+  font-family: "Urbanist";
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.exitButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.exitButtons > button {
+  font-family: "Urbanist";
+  background: transparent;
+  border: none;
+  font-size: 1.2em;
+  font-weight: 400;
+  width: 10em;
+}

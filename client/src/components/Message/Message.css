@@ -1,0 +1,83 @@
+.messageBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5em;
+  padding: 1em 1em;
+  margin-bottom: 1em;
+  width: 90vw;
+  user-select: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animation {
+  animation: bounce-in 1s ease-in-out;
+}
+
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.messageText {
+  font-size: 1em;
+  font-weight: bolder;
+  word-wrap: break-word;
+  margin: 0.2em;
+  width: 100%;
+  user-select: none;
+}
+
+.messagesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  user-select: none;
+}
+
+.displayCard {
+  background: rgb(240, 240, 240);
+}
+
+.displayCardBOTH {
+  background: rgb(230, 220, 255);
+}
+
+.displayCardSPOOKY {
+  background: rgb(230, 220, 255);
+}
+
+.displayCardZERO {
+  background: rgb(255, 250, 200);
+}
+
+.displayCardONE {
+  background: rgb(220, 255, 223);
+}
+
+.displayCardBAD {
+  background: rgb(255, 220, 220);
+}
+
+.cardsRow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+  justify-items: center;
+  width: 100%;
+  margin-top: 1em;
+  user-select: none;
+}

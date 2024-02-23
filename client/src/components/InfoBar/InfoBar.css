@@ -1,0 +1,55 @@
+.leftInnerContainer {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5em;
+  color: white;
+  float: left;
+  font-size: 1em;
+}
+
+.rightInnerContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0.5em;
+  float: right;
+}
+
+.rightInnerContainer > button {
+  background: none;
+  border: none;
+}
+
+.soundButton {
+  width: 0.8em;
+  height: 0.8em;
+  background: transparent;
+  border: none;
+  margin-left: 0.8em;
+  object-fit: contain;
+}
+
+.midInnerContainer {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.infoIcon {
+  margin-right: 0.5em;
+  width: 1em;
+  height: 1em;
+}
+
+.username {
+  font-size: 0.7em;
+}
+
+.activeUsername {
+  font-weight: bold;
+  color: rgb(100, 255, 100);
+}
+
+.activeNextUsername {
+  color: rgb(255, 225, 0);
+}

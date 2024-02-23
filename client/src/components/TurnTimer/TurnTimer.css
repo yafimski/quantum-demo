@@ -1,0 +1,19 @@
+.timer-container {
+  font-size: 4rem;
+  font-weight: bold;
+  font-family: "Lumanosimo";
+  background: transparent;
+  line-height: 5rem;
+}
+
+.timer-red {
+  color: red;
+}
+
+.timer-orange {
+  color: orange;
+}
+
+.timer-green {
+  color: green;
+}

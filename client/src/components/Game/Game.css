@@ -1,0 +1,77 @@
+html {
+  overscroll-behavior: none;
+}
+
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: #ffffff;
+  height: 100dvh;
+}
+
+.fullContainer {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  flex-grow: 1;
+  height: 90%;
+}
+
+.alignCenter {
+  justify-content: center;
+}
+
+.userNamesContainer {
+  display: grid;
+  place-content: center;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(7, 1fr);
+  grid: 1fr;
+  color: white;
+  background: #000000;
+  padding: 1em 0.5em;
+  height: 2rem;
+  width: 100%;
+  font-family: "JetBrains Mono", monospace;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.infoBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3d3d3d;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  height: 4rem;
+  position: sticky;
+  top: 2rem;
+  z-index: 999;
+}
+
+.buttonsContainer {
+  background: white;
+}
+
+.messagesContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  margin-top: 1em;
+}
+
+.carousel-title {
+  margin: 0;
+  margin-top: 1em;
+  font-weight: 500;
+  width: 100vw;
+  text-align: center;
+}
